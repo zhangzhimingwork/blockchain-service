@@ -18,6 +18,12 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use(express.json())
 
+//1.能够代币的生产
+//2.能够新建一个用户
+//3.能够完成代币的转账
+//4.矿工
+//5.有基本区块链浏览器能够查看当前的块高度的还有区块信息
+
 // 交易类
 class Transaction {
   /**
